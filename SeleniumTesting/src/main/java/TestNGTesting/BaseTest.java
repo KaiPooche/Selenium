@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseTest {
 
-	public WebDriver mydriver;
+	public WebDriver driver;
 	
 	public WebDriver getDriver(String browser) {
 		if (browser.equals("chrome")) {
